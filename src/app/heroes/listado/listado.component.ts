@@ -12,7 +12,6 @@ heroeBorrado: string = '' ;
 
 borrarHeroe(){
   this.heroeBorrado = this.heroes.shift() || '';
-
 }
  
 
