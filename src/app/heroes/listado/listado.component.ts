@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListadoComponent  {
 
 heroes: string[] = ['Spiderman', 'Ironman', 'Hulk', 'Thor']
-heroeBorrado: string = ''
+heroeBorrado: string = '' ;
 
 borrarHeroe(){
   this.heroeBorrado = this.heroes.shift() || '';
